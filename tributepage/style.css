@@ -1,11 +1,17 @@
-img {
-    /* border: 2px solid black; */
+#img-div {
+    border: 2px solid black;
     padding: 10px;
-    width: 50%;
-    margin: auto;
+    width: 70%;
+    /* text-align: center; */
 }
 
-figcaption {
+img {
+    display: block;
+    margin: auto;
+    max-width: 300px;
+}
+
+#img-caption {
     background-color: black;
     color: white;
     padding: 4px;
