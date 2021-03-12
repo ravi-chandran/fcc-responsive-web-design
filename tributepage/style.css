@@ -1,0 +1,13 @@
+img {
+    /* border: 2px solid black; */
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+figcaption {
+    background-color: black;
+    color: white;
+    padding: 4px;
+    text-align: center;
+}
