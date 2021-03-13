@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+}
+
+@media (max-width: 600px) {
+    #nav-bar {
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+}
+
+nav a {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: sans-serif;
+}
