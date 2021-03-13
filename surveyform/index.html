@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Lorem Ipsum Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form" action="">
+        <form>
+            <div>
+                <label for="name" id="name-label">Name</label><br>
+                <input type="text" id="name" name="name" required placeholder="First Last"><br>
+            </div>
+
+            <div>
+                <label for="email" id="email-label">Email</label><br>
+                <input type="email" id="email" name="email" required placeholder="xyz@abc.org"><br>
+            </div>
+
+            <div>
+                <label for="number" id="number-label">Age (optional)</label><br>
+                <input type="number" id="number" name="number" min="1" max="200" placeholder="1 to 100"><br>
+            </div>
+
+            <div>
+                <label for="dropdown">Choose your preference for Lorem Ipsum</label><br>
+                <select id="dropdown" name="dropdown">
+                  <option value="1">Enjoy</option>
+                  <option value="2">Okay With It</option>
+                  <option value="3">Hate</option>
+                  <option value="4">Undecided</option>
+                </select><br>
+            </div>
+
+            <div>
+                <label for="radio">Would you recommend Lorem Ipsum to a friend?</label><br>
+                <input type="radio" id="yes" name="recommend" value="yes">
+                <label for="yes">Yes</label><br>
+
+                <input type="radio" id="no" name="recommend" value="no">
+                <label for="no">No</label><br>
+
+                <input type="radio" id="maybe" name="recommend" value="maybe">
+                <label for="maybe">Maybe</label><br>
+            </div>
+
+            <div>
+                <label for="checkbox">What would you like to see improved? (Check all that apply)</label><br>
+                <input type="checkbox" id="spelling" name="spelling" value="Spelling">
+                <label for="spelling">Spelling</label><br>
+
+                <input type="checkbox" id="vocabulary" name="vocabulary" value="Vocabulary">
+                <label for="vocabulary">Vocabulary</label><br>
+
+                <input type="checkbox" id="punctuation" name="punctuation" value="Punctuation">
+                <label for="punctuation">Punctuation</label><br>
+
+            </div>
+
+            <div>
+                <label for="textarea">Any other comments?</label><br>
+                <textarea id="textarea" name="textarea" rows="6" cols="60" placeholder="Lorem Ipsum is great!"></textarea>
+            </div>
+
+            <div>
+                <button type="submit" id="submit">Submit</button>
+            </div>
+          </form>
+    </form>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
